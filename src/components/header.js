@@ -5,7 +5,7 @@ import React from 'react'
 const Header = () => {
   return (
     <div className='flex header box' style={{"justifyContent" : "space-between"}}>
-        <div>Chow</div>
+        <div><img src='./images/Chow.svg' width="70px" height="50px"/></div>
         <nav>
             <a className='navLink' href=''>Home</a>
             <a className='navLink' href=''>Menu</a>
