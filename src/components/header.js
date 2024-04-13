@@ -13,9 +13,9 @@ const Header = () => {
             <a className='navLink' href=''>Restaurants</a>
             <a className='navLink' href=''>Contact</a>
         </nav>
-        <div className='ancDiv'>
-          <a className='navLink' href=''><span className='anc'>an</span></a>
-          <a className='navLink' href=''><span className='anc'>an</span></a>
+        <div className='ancDiv flex'>
+          <a className='navLink' href=''><span className='anc'><img src='./images/Vector.svg' width="100%" height="100%"/></span></a>
+          <a className='navLink' href=''><span className='anc'><img src='./images/Vector_2.svg' width="100%" height="100%"/></span></a>
         </div>
     </div>
   )
